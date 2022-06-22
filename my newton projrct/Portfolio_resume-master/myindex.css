@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 4px 0px;
+}
+p i{
+    margin-right: 6px;
+}
+@media screen and (max-width: 850px)
+{
+    .main-resume
+    {
+        width: 500px;
+    }
+}
+.main-resume {
+    width: 850px;
+    height: 740px;
+     background-color: grey; 
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 10px solid violet; */
+}
+
+.main-resume .left {
+    width: 270px;
+     background-color: rgb(183, 155, 155);
+    padding: 20px;
+    height: 700px;
+}
+.main-resume .right {
+    width: 490px;
+    /* background-color: red; */
+    padding: 20px; 
+    height: 800px;
+}
+.imgcont
+{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+img
+{
+    width: 100px;
+    height: 100px;
+}
+.rinfo
+{
+    border-top: 2px solid black;
+    padding: 6px 0px;
+}
+.skills ul
+{
+  padding:0px 15px;
+}
+.right .rinfo
+{
+    border-top: 2px solid black;
+    padding: 6px 0px;
+}
+.Experience
+{
+    display: flex;
+     justify-content: space-around;
+}
+.insider
+{
+    padding: 20px;
+}
+.h-primary
+{
+    font-size: 18px;
+    color:blue
+}
+.social
+{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.social i{
+    margin: 20px;
+}
+
